@@ -1,27 +1,4 @@
-# Algorithms & Data Structures Preparation
-
-This repository contains my personal preparation for the **Algorithms and Data Structures** course at **KBTU**.
-
-## Goals
-
-- Strengthen my C++ programming skills
-- Learn core data structures and algorithms
-- Build a solid foundation for technical interviews
-- Track my learning progress
-
-## Repository Structure
-
-```text
-week01/
-week02/
-week03/
-...
-```
-
-Each folder contains:
-- Markdown notes
-- C++ implementations
-- Practice exercises
+# Week 1
 
 ## Topics
 
@@ -29,20 +6,27 @@ Each folder contains:
 - Stack
 - Queue
 - Deque
+- Prime Factorization
 - Time Complexity
 - Linked Lists
-- Trees
-- Hash Tables
-- Sorting Algorithms
-- Graph Algorithms
-- Dynamic Programming
+- Doubly Linked Lists
 
-## Technologies
+## Files
 
-- C++
-- Git
-- Markdown
+| File | Description |
+|------|-------------|
+| `basic.cpp` | C++ syntax review |
+| `01_stack.md` | Stack notes |
+| `02_queue.md` | Queue notes |
+| `03_deque.md` | Deque notes |
+| `04_prime_factorization.md` | Prime factorization notes |
+| `05_complexity_and_memory.md` | Complexity and memory notes |
+| `06_linked_lists.md` | Linked list notes |
+| `07_doubly_linked_lists.md` | Doubly linked list notes |
 
-## Status
+## Progress
 
-🟢 In Progress
+- [x] Repository created
+- [ ] Implement Stack
+- [ ] Implement Queue
+- [ ] Implement Deque
