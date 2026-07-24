@@ -1,2 +1,12 @@
+# Executables
 *.exe
+
+# Object files
+*.o
+*.obj
+
+# VS Code
 .vscode/
+
+# macOS
+.DS_Store
