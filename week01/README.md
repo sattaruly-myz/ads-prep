@@ -1,33 +1,48 @@
-# ADS на C++ — недели 1–2
+# Algorithms & Data Structures Preparation
 
-Этот модуль построен по порядку из силлабуса. Читай один файл за раз: сначала объяснение, затем код, а после него реши задания без подсматривания.
+This repository contains my personal preparation for the **Algorithms and Data Structures** course at **KBTU**.
 
-## Маршрут
+## Goals
 
-1. [Stack](01_stack.md) — LIFO, скобки, отмена действий.
-2. [Queue](02_queue.md) — FIFO, очереди задач и BFS-идея.
-3. [Deque](03_deque.md) — вставка и удаление с обоих концов.
-4. [Prime factorization](04_prime_factorization.md) — разложение числа на простые множители.
-5. [Complexity and memory](05_complexity_and_memory.md) — Big-O, время и память.
-6. [Linked lists](06_linked_lists.md) — односвязный список и указатели.
-7. [Doubly-linked lists](07_doubly_linked_lists.md) — список с движением в обе стороны.
+- Strengthen my C++ programming skills
+- Learn core data structures and algorithms
+- Build a solid foundation for technical interviews
+- Track my learning progress
 
-## Как заниматься
+## Repository Structure
 
-- Для каждого файла сначала попробуй пересказать идею одним предложением.
-- Запусти пример, измени входные данные и проверь крайние случаи: пустая структура, один элемент, повторяющиеся значения.
-- Реши задания в конце файла. Сложность решения записывай явно: например, `O(n)` времени и `O(n)` дополнительной памяти.
-- Не путай абстрактную структуру данных (например, очередь) с конкретной реализацией (например, `std::queue` или массивом).
+```text
+week01/
+week02/
+week03/
+...
+```
 
-## Мини-шпаргалка
+Each folder contains:
+- Markdown notes
+- C++ implementations
+- Practice exercises
 
-| Структура/алгоритм | Основная идея | Типичная стоимость |
-|---|---|---|
-| `stack` | последний вошёл — первый вышел | `push/pop/top`: `O(1)` |
-| `queue` | первый вошёл — первый вышел | `push/pop/front`: `O(1)` |
-| `deque` | быстрые операции с двух концов | `push/pop` на концах: `O(1)` |
-| Факторизация перебором делителей | делим на каждый возможный простой множитель | `O(sqrt(n))` проб делителей |
-| Односвязный список | узел хранит значение и `next` | поиск `O(n)`, вставка после узла `O(1)` |
-| Двусвязный список | узел хранит `prev` и `next` | удаление известного узла `O(1)` |
+## Topics
 
-После завершения модуля попробуй написать все структуры без STL, а затем сравни их со стандартными контейнерами.
+- C++ Review
+- Stack
+- Queue
+- Deque
+- Time Complexity
+- Linked Lists
+- Trees
+- Hash Tables
+- Sorting Algorithms
+- Graph Algorithms
+- Dynamic Programming
+
+## Technologies
+
+- C++
+- Git
+- Markdown
+
+## Status
+
+🟢 In Progress
