@@ -16,6 +16,7 @@
 | File | Description |
 |------|-------------|
 | `basic.cpp` | C++ syntax review |
+| `arrays.cpp` | C++ arrays review |
 | `01_stack.md` | Stack notes |
 | `02_queue.md` | Queue notes |
 | `03_deque.md` | Deque notes |
